@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+nav {
+  background-color: #f55a5a;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.card {
+  display: flex;
+  margin: 36px 40px;
+}
+
+.card-image {
+  margin-right: 20px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--location {
+  color: #2b283a;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+  margin-top: 20px;
+}
+
+.card--map-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #918e9b;
+}
+
+.card--title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+}
